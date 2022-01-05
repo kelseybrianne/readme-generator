@@ -14,7 +14,7 @@ inquirer
   },
   {
       name: 'title',
-      message: 'What would you like to title your README.md?',
+      message: 'Provide a README.md title.',
       type: 'input'
     },
     {
@@ -24,12 +24,12 @@ inquirer
     },
     {
         name: 'installation',
-        message: 'What are the installation instructions for your application?',
+        message: 'Provide instructions for installation.',
         type: 'input'
     },
     {
         name: 'usage',
-        message: 'What is the usage information?',
+        message: 'Provide intructions on how to use the application.',
         type: 'input'
     },
     {
@@ -39,14 +39,14 @@ inquirer
     },
     {
         name: 'tests',
-        message: 'What are the test instructions?',
+        message: 'What tests would you like to include?',
         type: 'input'
     },
     {
         name: 'license',
         message: 'What kind of license would you like to include?',
         type: 'list',
-        choices: ['MIT', 'heiilo'] 
+        choices: ['MIT', 'GNU AGPLv3'] 
     }
     /* Pass your questions in here */
   ])
