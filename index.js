@@ -15,6 +15,11 @@ const questions = [
         message: 'What kind of license would you like to include?',
         type: 'list',
         choices: ['MIT', 'GNU AGPLv3'] 
+    },
+    {
+        name: 'usageCommands',
+        message: 'What commands need to be run in order to use the application? If none, write none.',
+        type: 'input'
     }
 ];
 

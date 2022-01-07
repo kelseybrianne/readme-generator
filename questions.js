@@ -21,12 +21,17 @@ const questions = [
     },
     {
         name: 'installation',
-        message: 'Provide instructions for installation.',
+        message: 'What commands need to be run for installation?. If none, write none.',
         type: 'input'
     },
     {
         name: 'usage',
-        message: 'Provide intructions on how to use the application.',
+        message: 'What commands need to be run in order to use the application? If none, write none.',
+        type: 'input'
+    },
+    {
+        name: 'usage',
+        message: 'Provide any additional usage instructions.',
         type: 'input'
     },
     {
