@@ -35,4 +35,7 @@ ${tests}
 
 ## Questions
 
-For additional questions, email me at ${email} or go to my GitHub profile by visiting ${github}.
+Reach out if you have any questions:
+
+${email} 
+${github}

@@ -9,6 +9,12 @@ const questions = [
         name: 'title',
         message: 'Provide a title.',
         type: 'input'
+    },
+    {
+        name: 'license',
+        message: 'What kind of license would you like to include?',
+        type: 'list',
+        choices: ['MIT', 'GNU AGPLv3'] 
     }
 ];
 
