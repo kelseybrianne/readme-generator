@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 // Function to write a new file
 function writeToFile(fileName, data) {
 

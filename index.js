@@ -1,9 +1,8 @@
-// Packages needed for this application
+// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
-const fs = require('fs');
-const questions = require('./questions');
-const writeToFile = require('./writetofile');
+const questions = require('./utils/questions');
+const writeToFile = require('./utils/writeToFile');
 
 // TODO: Create a function to initialize app
 function init() {
