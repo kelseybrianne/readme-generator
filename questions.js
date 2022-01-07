@@ -11,27 +11,22 @@ const questions = [
     },
     {
         name: 'title',
-        message: 'Provide a README.md title.',
+        message: 'Provide a title for your README.',
         type: 'input'
     },
     {
         name: 'description',
-        message: 'Describe your application.',
+        message: 'Provide a description for your application.',
         type: 'input'
     },
     {
         name: 'installation',
-        message: 'What commands need to be run for installation?. If none, write none.',
+        message: 'What command needs to be run for installation?. If none, write none.',
         type: 'input'
     },
     {
         name: 'usage',
-        message: 'What commands need to be run in order to use the application? If none, write none.',
-        type: 'input'
-    },
-    {
-        name: 'usage',
-        message: 'Provide any additional usage instructions.',
+        message: 'What command need to be run in order to use the application? If none, write none.',
         type: 'input'
     },
     {
@@ -41,7 +36,7 @@ const questions = [
     },
     {
         name: 'tests',
-        message: 'What tests would you like to include?',
+        message: 'What command needs to be run for tests?',
         type: 'input'
     },
     {

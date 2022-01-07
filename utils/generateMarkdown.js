@@ -1,6 +1,3 @@
-
-// Do I put this in index.js?
-
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -17,16 +14,9 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-
-}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-
-
 function renderLicenseSection(license) {
   if (license) {
     return `This application is covered under the ${license} license.`;
@@ -49,10 +39,22 @@ function renderUsageSection(usage) {
 }
 
 function renderInstallationSection(installation) {
-  if (usageCommands !== 'none') {
-    return `Run the following commands to use the application:
+  if (installation !== 'none') {
+    return `To install any dependencies, run the following command:
   \`\`\`
-  ${usageCommands}
+  ${installation}
+  \`\`\`
+  `
+  } else {
+    return "";
+  }
+}
+
+function renderTestsSection(tests) {
+  if (tests !== 'none') {
+    return `To install any dependencies, run the following command:
+  \`\`\`
+  ${tests}
   \`\`\`
   `
   } else {
@@ -62,19 +64,53 @@ function renderInstallationSection(installation) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-  const { title, license, usage } = answers
+  const { title, description, license, installation, usage, contributing, tests, email, username } = answers
 
   return ` 
   # ${title}
-  
+
   ${renderLicenseBadge(license)}
+  
+  ## Description
+
+  ${description}
+
+  ## Table of Contents
+  
+  - [ Installation ](#installation)
+  - [ Usage ](#usage)
+  - [ License ](#license)
+  - [ Contributing ](#contributing)
+  - [ Tests ](#test)
+  - [ Questions ](#questions)
+
+  ## Installation
+  
+  ${renderInstallationSection(installation)}
+
+  ## Usage
 
   ${renderUsageSection(usage)}
-
+  
   ## License
-
+  
   ${renderLicenseSection(license)}
-`;
+  
+  ## Contributing
+  
+  ${contributing}
+
+  ## Tests
+
+  ${renderTestsSection(tests)}
+
+  ## Questions
+
+  Reach out if you have any questions:
+
+  Email: ${email}   
+  GitHub: [${username}](https://github.com/${username})
+  `;
 }
 
 module.exports = generateMarkdown;
