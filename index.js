@@ -73,7 +73,7 @@ function init() {
       const myMarkdown = generateMarkdown(answers);
 
       // call the 'writeToFile' function with your desired file name and 'myMarkdown'
-      writeToFile('README.md', myMarkdown); 
+      writeToFile('./output/README.md', myMarkdown); 
     })
     .catch((error) => {
         if (error.isTtyError) {
