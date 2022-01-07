@@ -24,7 +24,7 @@ Add demo video here.
 
 ## Contributing
 
-Send me an [email](kelseymailau@gmail.com) if you would like to contribute.
+Send me an [email](#questions) if you would like to contribute.
 
 ## Questions
 
