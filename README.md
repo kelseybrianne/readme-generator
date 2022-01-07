@@ -7,7 +7,6 @@ Description goes here.
 ## Table of Contents
 
 - [ Usage ](#usage)
-- [ Contributing ](#contributing)
 - [ Tests ](#test)
 - [ Questions ](#questions)
 - [ License ](#license)
@@ -21,10 +20,6 @@ node index.js
 ```
 
 Add demo video here.
-
-## Contributing
-
-Send me an [email](#questions) if you would like to contribute.
 
 ## Questions
 
