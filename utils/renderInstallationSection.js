@@ -1,9 +1,9 @@
 function renderInstallationSection(installation) {
     if (installation !== 'none') {
       return `To install any dependencies, run the following command:
-    \`\`\`
-    ${installation}
-    \`\`\`
+  \`\`\`
+  ${installation}
+  \`\`\`
     `
     } else {
       return "";
