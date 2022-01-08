@@ -1,11 +1,11 @@
  
-  # README Generator Demo
+  # f
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
 
-  A command-line application that quickly generates a high-quality, professional README file so that project creators can devote more of their time to the actual project. It includes a description of the application, table of contents, license, and instructions for using and installing the app, reporting issues, and making contributions.
+  f
 
   ## Table of Contents
   
@@ -20,7 +20,7 @@
   
   To install any dependencies, run the following command:
   ```
-  npm i
+  f
   ```
     
 
@@ -28,23 +28,23 @@
 
   Run the following commands to use the application:
   ```
-  node index.js
+  f
   ```
     
   
   ## License
   
-  This application is covered under the GNU AGPLv3 license.
+  This application is covered under the MIT license.
   
   ## Contributing
   
-  Pull requests are welcome.
+  f
 
   ## Tests
 
   To install any dependencies, run the following command:
   ```
-  npm test
+  f
   ```
   
 
@@ -52,6 +52,6 @@
 
   Reach out if you have any questions:
 
-  Email: kelseymailau@gmail.com   
-  GitHub: [kelseybrianne](https://github.com/kelseybrianne)
+  Email: f   
+  GitHub: [f](https://github.com/f)
   

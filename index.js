@@ -15,13 +15,7 @@ function init() {
       // call 'writeToFile' function with desired file name and 'myMarkdown'
       writeToFile('./output/README.md', myMarkdown); 
     })
-    .catch((error) => {
-        if (error.isTtyError) {
-          // Prompt couldn't be rendered in the current environment
-        } else {
-          // Something else went wrong
-        }
-      });
+    .catch((error) => {console.log(error)});
 }
 
 // Function call to initialize app
