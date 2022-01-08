@@ -43,7 +43,7 @@ const questions = [
         name: 'license',
         message: 'What kind of license would you like to include?',
         type: 'list',
-        choices: ['MIT', 'GNU AGPLv3'] 
+        choices: ['MIT', 'GPL 3.0', 'APACHE'] 
     }
   ];
 
