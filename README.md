@@ -2,7 +2,7 @@
 
 ## Description
 
-Description goes here.
+A command-line application that quickly generates a high-quality, professional README file so that project creators can devote more of their time to the actual project. It includes a description of the application, instructions for using the app, installing it, reporting issues, and making contributions. Developers have the ability to choose between two licenses, which upon selection, is added to the README just under the title as a badge.
 
 ## Table of Contents
 
