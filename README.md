@@ -19,7 +19,7 @@ From the root folder of the index.js file, run the following command in the term
 node index.js
 ```
 
-Here is a walkthrough [video](https://watch.screencastify.com/v/uGdTV81ipbdMmYMlyFGe) that demonstrates the application's functionality.
+Here is a walkthrough [video](https://watch.screencastify.com/v/fFmgV3dRLFSMrKPLRFWc) that demonstrates the application's functionality.
 
 
 ## Questions
