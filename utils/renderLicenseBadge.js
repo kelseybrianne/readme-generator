@@ -9,7 +9,7 @@ function renderLicenseBadge(license) {
       return gnu;
     } else if (license === 'APACHE') {
       return apache;
-    } else {
+    } else if (license === 'NONE') {
       return "";
     }
 }

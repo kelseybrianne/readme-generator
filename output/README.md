@@ -1,11 +1,11 @@
  
-  # f
+  # README
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
   
   ## Description
 
-  f
+  eijs fjis fjeisa fjelsiafjieowjqopie owkdfj
 
   ## Table of Contents
   
@@ -20,7 +20,7 @@
   
   To install any dependencies, run the following command:
   ```
-  f
+  npm i
   ```
     
 
@@ -28,17 +28,17 @@
 
   Run the following commands to use the application:
   ```
-  f
+  e
   ```
     
   
   ## License
   
-  This application is covered under the MIT license.
+  This application is covered under the NONE license.
   
   ## Contributing
   
-  f
+  i
 
   ## Tests
 
@@ -52,6 +52,6 @@
 
   Reach out if you have any questions:
 
-  Email: f   
-  GitHub: [f](https://github.com/f)
+  Email: jfiesla@gmail.com   
+  GitHub: [Kelsey](https://github.com/Kelsey)
   
