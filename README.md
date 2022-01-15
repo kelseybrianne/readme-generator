@@ -7,7 +7,7 @@
 ## Table of Contents
 
 - [ Usage ](#usage)
-- [ Tests ](#test)
+- [ Technologies Used ](#technologies-used)
 - [ Questions ](#questions)
 - [ License ](#license)
 
@@ -21,6 +21,10 @@ node index.js
 
 Here is a walkthrough [video](https://watch.screencastify.com/v/fFmgV3dRLFSMrKPLRFWc) that demonstrates the application's functionality.
 
+## Technologies Used
+
+- JavaScript
+- Inquirer
 
 ## Questions
 
